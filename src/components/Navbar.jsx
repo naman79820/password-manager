@@ -10,7 +10,7 @@ const Navbar = () => {
         <span className='text-green-600'>&lt;</span>Pass<span className='text-green-600'>OP/&gt;</span></li>
     </ul>
     <ul className='flex items-center justify-around rounded-full bg-green-800'>
-     <FaGithub className='w-12 h-10 text-gray-300 ' />
+     <FaGithub className='w-12 h-10 text-gray-300  ' />
      <span className='pr-2 text-gray-300 font-bold'>GitHub</span>
 
     </ul>
