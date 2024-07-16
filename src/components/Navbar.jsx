@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-   <div className='text-white flex w-screen h-12 bg-gray-800 items-center justify-around'>
+   <div className='text-white flex w-full h-12 bg-gray-800 items-center justify-around overflow-x-hidden'>
     <ul>
       <li className='text-white font-bold text-xl'> 
         <span className='text-green-600'>&lt;</span>Pass<span className='text-green-600'>OP/&gt;</span></li>
