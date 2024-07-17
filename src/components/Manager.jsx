@@ -257,7 +257,7 @@ toast(`Error: Not saved!`)
                           copyText(item.password);
                         }}
                       >
-                        <span>{item.password}</span>
+                        <span>{"*".repeat(item.password.length)}</span>
                         <lord-icon
                           src="https://cdn.lordicon.com/depeqmsz.json"
                           trigger="hover"
